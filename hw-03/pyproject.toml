@@ -1,0 +1,10 @@
+[project]
+name = "hw-03"
+version = "0.1.0"
+description = "ML Zoomcamp 2026 Homework 3: logistic regression and feature selection for lead conversion prediction"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["pandas>=2.2", "scikit-learn>=1.5"]
+
+[dependency-groups]
+dev = ["ipykernel>=6", "nbconvert>=7"]
