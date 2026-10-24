@@ -1,0 +1,15 @@
+[project]
+name = "hw-04"
+version = "0.1.0"
+description = "ML Zoomcamp 2026 Homework 4: classification metrics, threshold selection, and cross-validation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.9",
+]
+
+[dependency-groups]
+dev = ["ipykernel>=6", "nbconvert>=7"]
